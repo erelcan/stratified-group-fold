@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  stratified_group_fold:
+    build:
+      context: ./stratified_group_fold
+      target: base
+    ports:
+      - 5001:5001
+

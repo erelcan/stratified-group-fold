@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  stratified_group_fold:
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    volumes:
+      - ../stratified_group_fold:/workspace/stratified_group_fold
